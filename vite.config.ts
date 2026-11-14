@@ -68,11 +68,16 @@ export default defineConfig({
   base: './',
   plugins: [react(), localRuntimePlugin()],
   resolve: {
-    alias: {
-      // External WASM build so the runtime files can be loaded from ./ort/
-      // relative to the document, at a domain root or under /resume/.
-      'onnxruntime-web': ortWasmEntry,
-    },
+    alias: [
+      {
+        find: 'onnxruntime-web/webgpu',
+        replacement: ortWasmEntry,
+      },
+      {
+        find: /^onnxruntime-web$/,
+        replacement: ortWasmEntry,
+      },
+    ]
   },
   optimizeDeps: {
     exclude: ['@huggingface/transformers', 'onnxruntime-web'],
