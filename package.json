@@ -1,0 +1,41 @@
+{
+  "name": "resume-match",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Private, in-browser resume and job description match scorer",
+  "author": "gmahi9",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmahi9/resume-match.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "check:dist": "node scripts/check-relative-dist.mjs"
+  },
+  "dependencies": {
+    "@fontsource/source-sans-3": "^5.2.6",
+    "@fontsource/source-serif-4": "^5.2.6",
+    "@huggingface/transformers": "3.8.1",
+    "mammoth": "^1.10.0",
+    "pdfjs-dist": "4.10.38",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.4.1",
+    "vitest": "^3.2.4"
+  }
+}

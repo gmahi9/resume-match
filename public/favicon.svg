@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Resume Match">
+  <rect width="32" height="32" rx="8" fill="#0f5e59"/>
+  <path d="M7 23.5a9 9 0 1 1 18 0" fill="none" stroke="#f4fffd" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M16 23.2 22.2 12" fill="none" stroke="#f0c36a" stroke-width="2.3" stroke-linecap="round"/>
+  <circle cx="22.2" cy="12" r="1.5" fill="#f0c36a"/>
+</svg>
