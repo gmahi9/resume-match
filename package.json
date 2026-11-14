@@ -23,7 +23,7 @@
   "dependencies": {
     "@fontsource/source-sans-3": "^5.2.6",
     "@fontsource/source-serif-4": "^5.2.6",
-    "@huggingface/transformers": "3.8.1",
+    "@huggingface/transformers": "^4.3.2",
     "mammoth": "^1.10.0",
     "pdfjs-dist": "4.10.38",
     "react": "^19.1.1",
@@ -36,6 +36,6 @@
     "@vitejs/plugin-react": "^4.7.0",
     "typescript": "~5.8.3",
     "vite": "^6.4.1",
-    "vitest": "^3.2.4"
+    "vitest": "^5.1.0"
   }
 }
